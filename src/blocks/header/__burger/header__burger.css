@@ -1,0 +1,28 @@
+.header__burger {
+  flex: 0 0 25px;
+  height: 18px;
+  position: relative;
+  z-index: 4;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  transition: transform .3s ease;
+}
+
+.header__burger:hover {
+  cursor: pointer;
+  transform: scale(0.9, 0.9);
+}
+
+.header__burger::before,
+.header__burger::after {
+  content: "";
+  background: #000;
+  height: 2px;
+}
+
+@media screen and (min-width: 767.98px){
+  .header__burger {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.features__boxes {
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.features__boxes::before {
+  content: '';
+  width: 77px;
+  height: 77px;
+  background: #EC5863;
+  border-radius: 30px;
+  position: absolute;
+  bottom: -25px;
+  left: -35px;
+}
+
+.features__boxes::after {
+  content: '';
+  width: 77px;
+  height: 77px;
+  background: #EC5863;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 90px;
+  right: -40px;
+}

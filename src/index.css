@@ -1,2 +1,47 @@
 @import url(./vendor/normalize.css);
 @import url(./fonts/fonts.css);
+
+@import url(./blocks/root/root.css);
+
+/* header */
+@import url(./blocks/header/header.css);
+@import url(./blocks/logo/logo.css);
+@import url(./blocks/logo/_place/logo_place_header.css);
+@import url(./blocks/header/__navigation/header__navigation.css);
+@import url(./blocks/header/__navigation/_active/header__navigation_active.css);
+@import url(./blocks/header/__menu/header__menu.css);
+@import url(./blocks/header/__menu-item/header__menu-item.css);
+@import url(./blocks/header/__burger/header__burger.css);
+@import url(./blocks/header/__burger/_hidden/header__burger_hidden.css);
+@import url(./blocks/header/__burger-span/header__burger-span.css);
+@import url(./blocks/header/__close/_visible/header__close_visible.css);
+@import url(./blocks/header/__close/header__close.css);
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_place/button_place_menu.css);
+
+
+/* reusables title, subtitle, button */
+@import url(./blocks/title/title.css);
+@import url(./blocks/title/_color/title_color_blue.css);
+@import url(./blocks/title/_color/title_color_red.css);
+@import url(./blocks/title/__subtitle/title__subtitle.css);
+
+/* intro */
+@import url(./blocks/intro/intro.css);
+@import url(./blocks/intro/__container/intro__container.css);
+@import url(./blocks/intro/__text/intro__text.css);
+@import url(./blocks/intro/__image-container/intro__image-container.css);
+@import url(./blocks/intro/__image/intro__image.css);
+@import url(./blocks/intro/__video/intro__video.css);
+@import url(./blocks/intro/__video-icon/intro__video-icon.css);
+@import url(./blocks/intro/__video-text/intro__video-text.css);
+@import url(./blocks/intro/__video-subtext/intro__video-subtext.css);
+@import url(./blocks/intro/__video-block/intro__video-block.css);
+
+/* intro */
+@import url(./blocks/features/features.css);
+@import url(./blocks/features/__container/features__container.css);
+@import url(./blocks/features/__image-container/features__image-container.css);
+@import url(./blocks/features/__boxes/features__boxes.css);
+@import url(./blocks/features/__image/features__image.css);
+@import url(./blocks/features/__text/features__text.css);

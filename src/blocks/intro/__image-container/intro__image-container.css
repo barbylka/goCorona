@@ -1,0 +1,10 @@
+.intro__image-container {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 867.98px) {
+  .intro__image-container {
+    flex: 0 1 547px;
+    margin-top: 0;
+  }
+}

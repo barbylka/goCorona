@@ -1,0 +1,44 @@
+.header__close {
+  flex: 0 0 25px;
+  height: 25px;
+  position: relative;
+  z-index: 4;
+  display: block;
+  transition: all .3s ease;
+}
+
+.header__close::before {
+  content: "";
+  background: #000;
+  height: 2px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  right: 0;
+  background: #000;
+  height: 2px;
+  transform: rotate(45deg);
+}
+
+.header__close::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  right: 0;
+  background: #000;
+  height: 2px;
+  transform: rotate(-45deg);
+}
+
+.header__close:hover {
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+@media screen and (min-width: 767.98px){
+  .header__close {
+    display: none;
+  }
+}

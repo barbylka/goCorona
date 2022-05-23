@@ -1,0 +1,15 @@
+.features__container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 100px;
+}
+
+@media screen and (min-width: 867.98px) {
+.features__container {
+    flex-direction: row;
+    max-width: max-content;
+    margin: 0 auto;
+  }
+}

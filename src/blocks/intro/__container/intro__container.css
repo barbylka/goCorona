@@ -1,0 +1,17 @@
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+
+}
+
+@media screen and (min-width: 867.98px) {
+   .intro__container {
+     flex-direction: row;
+     max-width: max-content;
+     margin: 0 auto;
+   }
+}

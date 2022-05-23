@@ -1,0 +1,22 @@
+.button_place_menu {
+  background: #4285F4;
+  margin: 0 40px 0 auto;
+  position: relative;
+  z-index: 40;
+}
+
+.button_place_menu:hover {
+  background: rgb(91, 154, 255);
+}
+
+@media screen and (min-width: 767.98px){
+  .button_place_menu {
+    margin: 0 0 0 40px;
+  }
+}
+
+@media screen and (min-width: 991.98px){
+  .button_place_menu {
+    margin-left: 15%;
+  }
+}

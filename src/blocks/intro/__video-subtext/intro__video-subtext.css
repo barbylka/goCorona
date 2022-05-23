@@ -1,0 +1,13 @@
+.intro__video-subtext {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.26;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.intro__video:hover .intro__video-subtext {
+  color: inherit;
+}

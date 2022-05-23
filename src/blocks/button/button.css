@@ -1,0 +1,19 @@
+.button {
+  background: #EC5863;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #FCFDFE;
+  font-size: 10px;
+  line-height: 1.2;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  border: none;
+  padding: 14px 30px;
+  transition: all .3s ease;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #e87e85;
+}

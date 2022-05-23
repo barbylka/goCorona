@@ -1,0 +1,12 @@
+.intro__video-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.26;
+  letter-spacing: 0.8px;
+  color: #B0B0B0;
+  margin: 0;
+}
+
+.intro__video-text:not(:last-child) {
+  margin-bottom: 5px;
+}

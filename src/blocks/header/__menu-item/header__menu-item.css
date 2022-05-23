@@ -1,0 +1,29 @@
+.header__menu-item {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 30px 0;
+  color: #FCFDFE;
+  transition: text-all .3s linear;
+  text-align: center;
+}
+
+.header__menu-item:last-child {
+  margin: 0;
+}
+
+.header__menu-item:hover {
+  cursor: pointer;
+  opacity: .8;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 767.98px){
+  .header__menu-item {
+    margin: 0 40px 0 0;
+    color: #000;
+  }
+}

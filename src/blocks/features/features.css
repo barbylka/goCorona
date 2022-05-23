@@ -1,0 +1,15 @@
+.features {
+  padding: 50px 30px;
+}
+
+@media screen and (min-width: 867.98px) {
+  .features {
+    padding: 135px 120px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .features {
+    padding: 135px 170px;
+  }
+}
