@@ -1,0 +1,13 @@
+.card__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin: 58px 0 0;
+}
+
+.card__title:not(:last-child) {
+  margin-bottom: 4px;
+}

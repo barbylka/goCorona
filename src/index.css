@@ -57,3 +57,19 @@
 @import url(./blocks/experts/__text/experts__text.css);
 @import url(./blocks/experts/__video-container/experts__video-container.css);
 @import url(./blocks/experts/__video/experts__video.css);
+
+/* healthcare */
+@import url(./blocks/healthcare/healthcare.css);
+@import url(./blocks/healthcare/__cards/healthcare__cards.css);
+
+/* cards */
+@import url(./blocks/card/card.css);
+@import url(./blocks/card/__image/card__image.css);
+@import url(./blocks/card/__title/card__title.css);
+@import url(./blocks/card/__text/card__text.css);
+
+/* footer */
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__links/footer__links.css);
+@import url(./blocks/footer/__link/footer__link.css);
+@import url(./blocks/footer/__link-thumb/footer__link-thumb.css);
