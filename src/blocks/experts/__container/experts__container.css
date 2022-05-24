@@ -1,0 +1,20 @@
+.experts__container {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 867.98px) {
+   .experts__container {
+      align-items: center;
+      flex-direction: row;
+      max-width: 1250px;
+      margin: 80px auto 0;
+      gap: 75px;
+   }
+}

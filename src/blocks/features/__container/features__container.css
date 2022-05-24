@@ -1,6 +1,5 @@
 .features__container {
   display: flex;
-  justify-content: space-between;
   flex-direction: column-reverse;
   align-items: center;
   gap: 100px;
@@ -11,5 +10,6 @@
     flex-direction: row;
     max-width: max-content;
     margin: 0 auto;
+    justify-content: space-between;
   }
 }

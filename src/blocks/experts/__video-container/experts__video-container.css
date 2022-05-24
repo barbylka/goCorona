@@ -1,0 +1,18 @@
+.experts__video-container {
+  position: relative;
+  padding-bottom: 58%;
+}
+
+@media screen and (min-width: 867.98px) {
+  .experts__video-container {
+    flex: 0 1 520px;
+    padding-bottom: 28%;
+
+  }
+}
+
+/* @media screen and (min-width: 1120.98px) {
+  .experts__video-container {
+    flex-basis: 620px;
+  }
+}  */

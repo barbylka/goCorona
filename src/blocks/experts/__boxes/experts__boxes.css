@@ -1,0 +1,42 @@
+.experts__boxes {
+  position: relative;
+  /* max-width: max-content; */
+  margin: 0 auto;
+
+}
+
+.experts__boxes::after {
+  content: '';
+  width: 97px;
+  height: 97px;
+  background: #EC5863;
+  border-radius: 30px;
+  transform: rotate(105deg);
+  position: absolute;
+  top: -38px;
+  left: -38px;
+}
+
+.experts__boxes::before {
+  content: '';
+  width: 128px;
+  height: 128px;
+  background: #EC5863;
+  border-radius: 30px;
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 78px;
+  right: -75px;
+}
+
+@media screen and (min-width: 867.98px) {
+  .experts__boxes::before {
+    top: 0;
+    right: -55px;
+  }
+
+  .experts__boxes::after {
+    top: -38px;
+    left: 35%;
+  }
+}

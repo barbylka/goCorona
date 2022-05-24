@@ -1,6 +1,7 @@
 import Header from './Header';
 import Intro from './Intro';
 import Features from './Features';
+import Experts from './Experts';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Intro />
         <Features />
+        <Experts />
       </main>
     </div>
   );
