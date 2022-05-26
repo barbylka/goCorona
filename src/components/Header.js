@@ -9,21 +9,23 @@ function Header() {
 
   function handleBurger() {
     setIsBurgerOpened(true);
+    document.body.style.overflow = "hidden";
   }
 
   function closeBurger() {
     setIsBurgerOpened(false);
+    document.body.style.overflow = "unset";
   }
 
   return (
     <header className="header">
-      <img className="logo logo_place_header" alt="logo" src={logo}/>
+      <img className="logo logo_place_header" alt="logo" src={logo} />
       <nav className={burgerClassName}>
         <ul className="header__menu">
-          <li className="header__menu-item">HOME</li>
-          <li className="header__menu-item">FEATURES</li>
-          <li className="header__menu-item">SUPPORT</li>
-          <li className="header__menu-item">CONTACT US</li>
+          <a onClick={closeBurger} className="header__menu-item" href="#intro"><li>HOME</li></a>
+          <a onClick={closeBurger} className="header__menu-item" href="#features"><li>FEATURES</li></a>
+          <a onClick={closeBurger} className="header__menu-item" href="#support"><li>SUPPORT</li></a>
+          <a onClick={closeBurger} className="header__menu-item" href="#contact"><li>CONTACT US</li></a>
         </ul>
       </nav>
       <button className="button button_place_menu">DOWNLOAD</button>

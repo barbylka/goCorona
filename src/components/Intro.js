@@ -1,9 +1,11 @@
+import React from 'react';
+
 import introImg from '../images/intro.png';
 import video from '../images/video.svg';
 
 function Intro() {
   return (
-    <section className="intro">
+    <section className="intro" id="main">
       <div className="intro__container">
         <div className="intro__text">
           <h1 className="title">Take care of yours family’s <span className="title_color_blue">health.</span></h1>
@@ -14,7 +16,7 @@ function Intro() {
           <img src={introImg} className="intro__image" alt='A doctor and a patient' />
         </div>
       </div>
-      <a className="intro__video" href='#' target='_blank'>
+      <a className="intro__video" href='#support' target='_blank'>
         <img className="intro__video-icon" alt="Video icon" src={video} />
         <div className="intro__video-block">
           <p className="intro__video-text">Stay safe with GoCorona</p>

@@ -1,8 +1,7 @@
 .experts__boxes {
   position: relative;
-  /* max-width: max-content; */
+  max-width: max-content;
   margin: 0 auto;
-
 }
 
 .experts__boxes::after {

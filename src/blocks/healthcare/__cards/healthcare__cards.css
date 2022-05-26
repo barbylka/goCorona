@@ -1,3 +1,84 @@
 .healthcare__cards {
-  margin-top: 65px;
+  max-width: 1057px;
+  margin: 0;
+  padding: 20px 15px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 99%);
+  grid-auto-flow: column;
+  grid-gap: 30px;
+  overflow-y: visible;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #EC5863 #cccdce80;
+  position: relative;
+  z-index: 2;
+  overflow-y: hidden;
+}
+
+.healthcare__cards::-webkit-scrollbar {
+  height: 3px;
+}
+
+.healthcare__cards::-webkit-scrollbar-track {
+  background: #cccdce80;
+  border-radius: 6px;
+}
+
+.healthcare__cards::-webkit-scrollbar-thumb {
+  background: #EC5863;
+  border-radius: 6px;
+}
+
+
+@media screen and (min-width: 480.98px) {
+  .healthcare__cards {
+    grid-template-columns: repeat(3, 46%);
+  }
+}
+
+@media screen and (min-width: 678px) {
+  .healthcare__cards {
+    grid-template-columns: repeat(3, calc((100% - 65px) / 3));
+  }
+
+  .healthcare__cards::before {
+    content: '';
+    width: 97px;
+    height: 97px;
+    background: #EC5863;
+    border-radius: 30px;
+    transform: rotate(105deg);
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    z-index: -1;
+  }
+
+  .healthcare__cards::after {
+    content: '';
+    width: 128px;
+    height: 128px;
+    background: #EC5863;
+    border-radius: 30px;
+    transform: rotate(-30deg);
+    position: absolute;
+    bottom: 7%;
+    right: 28%;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 953px) {
+  .healthcare__cards {
+    grid-template-columns: repeat(3, calc((100% - 155px) / 3));
+    gap: 72px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    user-select: none;
+    /* scroll-snap-type: x mandatory; */
+  }
+
+
 }

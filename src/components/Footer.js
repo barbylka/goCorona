@@ -1,3 +1,5 @@
+import React from 'react';
+
 import google from '../images/googlePlay.png';
 import appleStore from '../images/appStore.png';
 

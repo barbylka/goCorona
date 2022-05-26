@@ -1,0 +1,40 @@
+.healthcare__boxes {
+  position: relative;
+  max-width: max-content;
+  margin: 0 auto;
+}
+
+.healthcare__boxes::before {
+  content: '';
+  width: 66px;
+  height: 66px;
+  background: #EC5863;
+  border-radius: 16px;
+  transform: rotate(-30deg);
+  position: absolute;
+  bottom: -40px;
+  left: -5px;
+}
+
+.healthcare__boxes::after {
+  content: '';
+  width: 66px;
+  height: 66px;
+  background: #EC5863;
+  border-radius: 16px;
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  z-index: 0;
+}
+
+@media screen and (min-width: 678px) {
+  .healthcare__boxes::before {
+    bottom: 0px;
+  }
+
+  .healthcare__boxes::after {
+    right: 5px;
+  }
+}

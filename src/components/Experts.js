@@ -1,6 +1,8 @@
+import React from 'react';
+
 function Experts() {
   return (
-    <section className="experts">
+    <section className="experts" id="support">
       <div className="experts__boxes">
         <div className="experts__statistics">
           <p className="experts__statistics-data"><span className="experts__statistics-span">2m</span>Users</p>
@@ -15,7 +17,7 @@ function Experts() {
           <button className="button">Features</button>
         </div>
         <div className="experts__video-container">
-          <iframe className="experts__video" src="https://www.youtube.com/embed/B5smctuV7-Q" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="experts__video" src="https://www.youtube.com/embed/B5smctuV7-Q" title="YouTube video player" allowFullScreen></iframe>
         </div>
       </div>
     </section>

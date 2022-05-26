@@ -2,6 +2,7 @@
 @import url(./fonts/fonts.css);
 
 @import url(./blocks/root/root.css);
+@import url(./blocks/root/_hidden/root__hidden.css);
 
 /* header */
 @import url(./blocks/header/header.css);
@@ -60,6 +61,7 @@
 
 /* healthcare */
 @import url(./blocks/healthcare/healthcare.css);
+@import url(./blocks/healthcare/__boxes/healthcare__boxes.css);
 @import url(./blocks/healthcare/__cards/healthcare__cards.css);
 
 /* cards */

@@ -9,6 +9,7 @@
   color: #FCFDFE;
   transition: text-all .3s linear;
   text-align: center;
+  text-decoration: none;
 }
 
 .header__menu-item:last-child {
@@ -21,7 +22,7 @@
   text-decoration: underline;
 }
 
-@media screen and (min-width: 767.98px){
+@media screen and (min-width: 767.98px) {
   .header__menu-item {
     margin: 0 40px 0 0;
     color: #000;
