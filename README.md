@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Landing page with Create React App: standard functionality and interface
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi there! 
+This is my pet-project. The design was found on the Internet, now it's in the "images" folder.
 
-## Available Scripts
+## Preview
 
-In the project directory, you can run:
+It gives me great pleasure to present my project to you. Follow the [link](https://barbylka.github.io/goCorona/) and take a look at my vision for the function of sales pages. 
 
-### `npm start`
+Since I'm just getting started, I'd be interested in the opinions of experienced colleagues and tips for improving the page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Functions
+Let's pretend that you are a company that wants to sell your mobile app through your website. 💭 What kind of Landing Page would you want?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+On such a page, I have implemented a comprehensive functionality for your tasks. The user will be able to:
+1. use the menu at different resolutions
+2. descend to the page blocks of interest
+3. see all the information you want to see
+4. view a YouTube video (or your own) about the app without leaving the page
+5. go straight to the store of your platform and download the app
 
-### `npm test`
+Of course, you can also add a popup window here, with sending the users's details to get a discount. I implemented a popup for that, and adding a form to it is a couple of knick knacks. Or maybe do you want something else in the popup, not a form?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I've tried to implement popular features that I see most often on info-landing pages.
 
-### `npm run build`
+## Design
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here is my principled position: the site should be both beautiful and comfortable. Here for me there are no important and unimportant sides, priorities and points. Therefore, I paid special attention to this.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Let's return to our fairy tale.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You plan to sell your app to any user, of any region and age. 
 
-### `npm run eject`
+1. 📱 Mobile-First. Of course, the main audience will be users coming from your social media accounts. It is very convenient to navigate within your phone. That's why I optimize the application by starting the development with the mobile version.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. 📺 Television, why not? Yes, it's unlikely that someone will decide to open your site via TV (although why not? I do it sometimes, smart TV is a useful and convenient technology). What about wide monitors? Many people use them now. I tried to implement the site in such a way that we do not have content in the middle and sides on the edges. But in my opinion this is old-fashioned.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. 👩‍🎨 UICS and Adaptive layout. Be reassured that your application will open on the fifth iPhone and on the TV in all its glory. Elements will stand where the user is comfortable, visible and intuitive. The movements of the user's finger or mouse on the screen are predictable, so let's apply that here as well. Users are already used to the location of menus and buttons, so let's not annoy them 😡 with our design decisions and scare them away from our application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
