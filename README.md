@@ -16,7 +16,7 @@ On such a page, I have implemented a comprehensive functionality for your tasks.
 1. use the menu at different resolutions
 2. descend to the page blocks of interest
 3. see all the information you want to see
-4. view a YouTube video (or your own) about the app without leaving the page
+4. watch a YouTube video (or your own) about the app without leaving the page
 5. go straight to the store of your platform and download the app
 
 Of course, you can also add a popup window here, with sending the users's details to get a discount. I implemented a popup for that, and adding a form to it is a couple of knick knacks. Or maybe do you want something else in the popup, not a form?
