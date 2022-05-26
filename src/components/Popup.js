@@ -25,6 +25,7 @@ function Popup({ isOpen, onClose }) {
 
   return (
     <section className={popupClassName}>
+      <div className="popup__overlay" onClick={onClose}></div>
       <div className="popup__container">
         <div className="popup__close" onClick={onClose}><div className="popup__close-button"></div></div>
         <h2 className="title"><span className="title_color_red">Wow!</span> Here you are!</h2>
