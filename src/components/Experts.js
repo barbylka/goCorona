@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Experts() {
+function Experts({ onPopup }) {
   return (
     <section className="experts" id="support">
       <div className="experts__boxes">
@@ -14,7 +14,7 @@ function Experts() {
         <div className="experts__text">
           <h1 className="title">Talk to <span className="title_color_blue">experts.</span></h1>
           <p className="title__subtitle">Book appointments or submit queries into thousands of forums concerning health issues and prevention against noval Corona Virus.</p>
-          <button className="button">Features</button>
+          <button className="button" onClick={onPopup}>Features</button>
         </div>
         <div className="experts__video-container">
           <iframe className="experts__video" src="https://www.youtube.com/embed/B5smctuV7-Q" title="YouTube video player" allowFullScreen></iframe>

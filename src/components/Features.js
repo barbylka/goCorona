@@ -2,7 +2,7 @@ import React from 'react';
 
 import features from '../images/features.png';
 
-function Features() {
+function Features({ onPopup }) {
   return (
     <section className="features" id="features">
       <div className="features__container">
@@ -14,7 +14,7 @@ function Features() {
         <div className="features__text">
           <h1 className="title">Stay safe with <span className="title_color_red">GoCorona.</span></h1>
           <p className="title__subtitle">24x7 Support and user friendly mobile platform to bring healthcare to your fingertips. Signup and be a part of the new health culture.</p>
-          <button className="button">Features</button>
+          <button className="button" onClick={onPopup}>Features</button>
         </div>
       </div>
     </section>

@@ -75,3 +75,10 @@
 @import url(./blocks/footer/__links/footer__links.css);
 @import url(./blocks/footer/__link/footer__link.css);
 @import url(./blocks/footer/__link-thumb/footer__link-thumb.css);
+
+/* popup */
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__close/popup__close.css);
+@import url(./blocks/popup/__close-button/popup__close-button.css);

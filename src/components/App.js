@@ -6,18 +6,30 @@ import Features from './Features';
 import Experts from './Experts';
 import Healthcare from './Healthcare';
 import Footer from './Footer';
+import Popup from './Popup';
 
 function App() {
+  const [isPopupOpened, setIsPopupOpened] = React.useState(false);
+
+  function openPopup() {
+    setIsPopupOpened(true);
+  }
+
+  function closePopup() {
+    setIsPopupOpened(false);
+  }
+
   return (
     <div className="root">
-      <Header />
+      <Header onPopup={openPopup} />
       <main>
-        <Intro />
-        <Features />
-        <Experts />
+        <Intro onPopup={openPopup} />
+        <Features onPopup={openPopup} />
+        <Experts onPopup={openPopup} />
         <Healthcare />
       </main>
       <Footer />
+      <Popup isOpen={isPopupOpened} onClose={closePopup} />
     </div>
   );
 }
