@@ -10,3 +10,9 @@
 .title__subtitle:not(:last-child) {
   margin-bottom: 24px;
 }
+
+@media screen and (min-width: 1440px) {
+  .title__subtitle {
+    font-size: 26px;
+  }
+}

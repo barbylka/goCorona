@@ -7,6 +7,7 @@ import Experts from './Experts';
 import Healthcare from './Healthcare';
 import Footer from './Footer';
 import Popup from './Popup';
+import ScrollTop from './ScrollTop';
 
 function App() {
   const [isPopupOpened, setIsPopupOpened] = React.useState(false);
@@ -20,13 +21,14 @@ function App() {
   }
 
   return (
-    <div className="root">
+    <div className='root'>
       <Header onPopup={openPopup} />
       <main>
         <Intro onPopup={openPopup} />
         <Features onPopup={openPopup} />
         <Experts onPopup={openPopup} />
         <Healthcare />
+        <ScrollTop />
       </main>
       <Footer />
       <Popup isOpen={isPopupOpened} onClose={closePopup} />

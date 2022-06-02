@@ -7,12 +7,5 @@
   .experts__video-container {
     flex: 0 1 520px;
     padding-bottom: 28%;
-
   }
 }
-
-/* @media screen and (min-width: 1120.98px) {
-  .experts__video-container {
-    flex-basis: 620px;
-  }
-}  */

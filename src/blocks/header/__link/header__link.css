@@ -1,0 +1,16 @@
+.header__link {
+  text-decoration: none;
+  color: #FCFDFE;
+}
+
+.header__link:hover {
+  cursor: pointer;
+  opacity: .8;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 767.98px) {
+  .header__link {
+    color: #000;
+  }
+}

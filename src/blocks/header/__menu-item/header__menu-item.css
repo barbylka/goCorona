@@ -6,7 +6,6 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0 0 30px 0;
-  color: #FCFDFE;
   transition: text-all .3s linear;
   text-align: center;
   text-decoration: none;
@@ -16,15 +15,15 @@
   margin: 0;
 }
 
-.header__menu-item:hover {
-  cursor: pointer;
-  opacity: .8;
-  text-decoration: underline;
-}
-
 @media screen and (min-width: 767.98px) {
   .header__menu-item {
     margin: 0 40px 0 0;
-    color: #000;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header__menu-item {
+    font-size: 14px;
   }
 }
