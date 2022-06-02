@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "67c140b350f15713ed6b",
-    "url": "/goCorona/static/css/main.5ef76f86.chunk.css"
+    "revision": "abd176c67d473e312a04",
+    "url": "/goCorona/static/css/main.cf20f65c.chunk.css"
   },
   {
-    "revision": "67c140b350f15713ed6b",
-    "url": "/goCorona/static/js/main.67c140b3.chunk.js"
+    "revision": "abd176c67d473e312a04",
+    "url": "/goCorona/static/js/main.abd176c6.chunk.js"
   },
   {
-    "revision": "266190d1fb51ad12d0a4",
-    "url": "/goCorona/static/js/1.266190d1.chunk.js"
+    "revision": "b3be8a9b1cc833812d75",
+    "url": "/goCorona/static/js/1.b3be8a9b.chunk.js"
   },
   {
     "revision": "944ad773c44776d96393",
     "url": "/goCorona/static/js/2.944ad773.chunk.js"
   },
   {
-    "revision": "17f307dab72182b0bf7d",
-    "url": "/goCorona/static/js/runtime~main.17f307da.js"
+    "revision": "1a8dafa7ae22e94cb88b",
+    "url": "/goCorona/static/js/runtime~main.1a8dafa7.js"
   },
   {
     "revision": "9c534b10c0375e611f24f18b282eedb3",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/goCorona/static/media/heart.3a5faa83.svg"
   },
   {
-    "revision": "7802d8b27fcb19893ce6b38c0789268e",
-    "url": "/goCorona/static/media/Raleway-Bold.7802d8b2.ttf"
+    "revision": "11598c28bd4c62d359b58d8a810f385f",
+    "url": "/goCorona/static/media/Rubik-Bold.11598c28.ttf"
   },
   {
     "revision": "4b3f06816033d040ef0ed60865adb2d1",
@@ -60,11 +60,11 @@ self.__precacheManifest = [
     "url": "/goCorona/static/media/Raleway-ExtraBold.c9503ab0.ttf"
   },
   {
-    "revision": "11598c28bd4c62d359b58d8a810f385f",
-    "url": "/goCorona/static/media/Rubik-Bold.11598c28.ttf"
+    "revision": "7802d8b27fcb19893ce6b38c0789268e",
+    "url": "/goCorona/static/media/Raleway-Bold.7802d8b2.ttf"
   },
   {
-    "revision": "64c3edcfbe8f3847ffa316de32306eac",
+    "revision": "84bbd6a304e95bc9920376db1ade0901",
     "url": "/goCorona/index.html"
   }
 ];
